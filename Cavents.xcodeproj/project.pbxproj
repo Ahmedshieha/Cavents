@@ -3,19 +3,34 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		040BB8192559D2950097FA43 /* DataRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 040BB8182559D2950097FA43 /* DataRequest.swift */; };
+		040BB8242559DE420097FA43 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 040BB8232559DE420097FA43 /* GoogleService-Info.plist */; };
+		0438FA3225A6FE6A0074A59F /* LikesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0438FA3125A6FE6A0074A59F /* LikesViewController.swift */; };
+		043BE8E525C1E6BF00A74BDE /* DetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 043BE8E425C1E6BF00A74BDE /* DetailsViewController.swift */; };
+		04846BCC25C08F1900F22572 /* City.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04846BCB25C08F1900F22572 /* City.swift */; };
 		04AB5EB5254B6E62008575F3 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04AB5EB4254B6E62008575F3 /* AppDelegate.swift */; };
 		04AB5EB7254B6E62008575F3 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04AB5EB6254B6E62008575F3 /* SceneDelegate.swift */; };
 		04AB5EB9254B6E62008575F3 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04AB5EB8254B6E62008575F3 /* ViewController.swift */; };
 		04AB5EBC254B6E62008575F3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 04AB5EBA254B6E62008575F3 /* Main.storyboard */; };
 		04AB5EBE254B6E63008575F3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 04AB5EBD254B6E63008575F3 /* Assets.xcassets */; };
 		04AB5EC1254B6E63008575F3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 04AB5EBF254B6E63008575F3 /* LaunchScreen.storyboard */; };
+		04B7F26425A7394D0005D0EB /* SignUpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04B7F26325A7394D0005D0EB /* SignUpViewController.swift */; };
+		04F482E92558B2380015F8C3 /* EventsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04F482E82558B2380015F8C3 /* EventsViewController.swift */; };
+		04F482ED2558B2890015F8C3 /* EventCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04F482EB2558B2890015F8C3 /* EventCell.swift */; };
+		04F482EE2558B2890015F8C3 /* EventCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 04F482EC2558B2890015F8C3 /* EventCell.xib */; };
+		D61D2883AC520C921028D475 /* Pods_Cavents.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3F157A34DCC6514932B242FE /* Pods_Cavents.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		040BB8182559D2950097FA43 /* DataRequest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataRequest.swift; sourceTree = "<group>"; };
+		040BB8232559DE420097FA43 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		0438FA3125A6FE6A0074A59F /* LikesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LikesViewController.swift; sourceTree = "<group>"; };
+		043BE8E425C1E6BF00A74BDE /* DetailsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailsViewController.swift; sourceTree = "<group>"; };
+		04846BCB25C08F1900F22572 /* City.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = City.swift; sourceTree = "<group>"; };
 		04AB5EB1254B6E62008575F3 /* Cavents.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Cavents.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		04AB5EB4254B6E62008575F3 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		04AB5EB6254B6E62008575F3 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -24,6 +39,13 @@
 		04AB5EBD254B6E63008575F3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		04AB5EC0254B6E63008575F3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		04AB5EC2254B6E63008575F3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		04B7F26325A7394D0005D0EB /* SignUpViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpViewController.swift; sourceTree = "<group>"; };
+		04F482E82558B2380015F8C3 /* EventsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EventsViewController.swift; sourceTree = "<group>"; };
+		04F482EB2558B2890015F8C3 /* EventCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EventCell.swift; sourceTree = "<group>"; };
+		04F482EC2558B2890015F8C3 /* EventCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = EventCell.xib; sourceTree = "<group>"; };
+		3F157A34DCC6514932B242FE /* Pods_Cavents.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Cavents.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		BFA667A4A416DFDE1DB4BE56 /* Pods-Cavents.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Cavents.debug.xcconfig"; path = "Target Support Files/Pods-Cavents/Pods-Cavents.debug.xcconfig"; sourceTree = "<group>"; };
+		C803A371C980D59F1C20C203 /* Pods-Cavents.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Cavents.release.xcconfig"; path = "Target Support Files/Pods-Cavents/Pods-Cavents.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,17 +53,36 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D61D2883AC520C921028D475 /* Pods_Cavents.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		040BB8172559D27E0097FA43 /* Network */ = {
+			isa = PBXGroup;
+			children = (
+				040BB8182559D2950097FA43 /* DataRequest.swift */,
+			);
+			path = Network;
+			sourceTree = "<group>";
+		};
+		040BB8252559E3EE0097FA43 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				04846BCB25C08F1900F22572 /* City.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
 		04AB5EA8254B6E62008575F3 = {
 			isa = PBXGroup;
 			children = (
 				04AB5EB3254B6E62008575F3 /* Cavents */,
 				04AB5EB2254B6E62008575F3 /* Products */,
+				F8D6360B165F911FEF8DB9E4 /* Pods */,
+				C396B1D038B5828EF4BF0D14 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -56,15 +97,57 @@
 		04AB5EB3254B6E62008575F3 /* Cavents */ = {
 			isa = PBXGroup;
 			children = (
+				040BB8252559E3EE0097FA43 /* Models */,
+				040BB8172559D27E0097FA43 /* Network */,
+				04F482E52558A1980015F8C3 /* Controller */,
+				04F482EA2558B2660015F8C3 /* view */,
 				04AB5EB4254B6E62008575F3 /* AppDelegate.swift */,
 				04AB5EB6254B6E62008575F3 /* SceneDelegate.swift */,
-				04AB5EB8254B6E62008575F3 /* ViewController.swift */,
 				04AB5EBA254B6E62008575F3 /* Main.storyboard */,
 				04AB5EBD254B6E63008575F3 /* Assets.xcassets */,
 				04AB5EBF254B6E63008575F3 /* LaunchScreen.storyboard */,
 				04AB5EC2254B6E63008575F3 /* Info.plist */,
+				040BB8232559DE420097FA43 /* GoogleService-Info.plist */,
 			);
 			path = Cavents;
+			sourceTree = "<group>";
+		};
+		04F482E52558A1980015F8C3 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				04AB5EB8254B6E62008575F3 /* ViewController.swift */,
+				04F482E82558B2380015F8C3 /* EventsViewController.swift */,
+				0438FA3125A6FE6A0074A59F /* LikesViewController.swift */,
+				04B7F26325A7394D0005D0EB /* SignUpViewController.swift */,
+				043BE8E425C1E6BF00A74BDE /* DetailsViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		04F482EA2558B2660015F8C3 /* view */ = {
+			isa = PBXGroup;
+			children = (
+				04F482EB2558B2890015F8C3 /* EventCell.swift */,
+				04F482EC2558B2890015F8C3 /* EventCell.xib */,
+			);
+			path = view;
+			sourceTree = "<group>";
+		};
+		C396B1D038B5828EF4BF0D14 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				3F157A34DCC6514932B242FE /* Pods_Cavents.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		F8D6360B165F911FEF8DB9E4 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				BFA667A4A416DFDE1DB4BE56 /* Pods-Cavents.debug.xcconfig */,
+				C803A371C980D59F1C20C203 /* Pods-Cavents.release.xcconfig */,
+			);
+			path = Pods;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -74,9 +157,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 04AB5EC5254B6E63008575F3 /* Build configuration list for PBXNativeTarget "Cavents" */;
 			buildPhases = (
+				93642488B06ABE58C630257C /* [CP] Check Pods Manifest.lock */,
 				04AB5EAD254B6E62008575F3 /* Sources */,
 				04AB5EAE254B6E62008575F3 /* Frameworks */,
 				04AB5EAF254B6E62008575F3 /* Resources */,
+				96EB675557DAE3B36081EE84 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -94,7 +179,7 @@
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 1130;
-				LastUpgradeCheck = 1130;
+				LastUpgradeCheck = 1230;
 				ORGANIZATIONNAME = Reda;
 				TargetAttributes = {
 					04AB5EB0254B6E62008575F3 = {
@@ -127,11 +212,55 @@
 			files = (
 				04AB5EC1254B6E63008575F3 /* LaunchScreen.storyboard in Resources */,
 				04AB5EBE254B6E63008575F3 /* Assets.xcassets in Resources */,
+				040BB8242559DE420097FA43 /* GoogleService-Info.plist in Resources */,
+				04F482EE2558B2890015F8C3 /* EventCell.xib in Resources */,
 				04AB5EBC254B6E62008575F3 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		93642488B06ABE58C630257C /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Cavents-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		96EB675557DAE3B36081EE84 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Cavents/Pods-Cavents-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Cavents/Pods-Cavents-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Cavents/Pods-Cavents-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		04AB5EAD254B6E62008575F3 /* Sources */ = {
@@ -139,8 +268,15 @@
 			buildActionMask = 2147483647;
 			files = (
 				04AB5EB9254B6E62008575F3 /* ViewController.swift in Sources */,
+				04F482E92558B2380015F8C3 /* EventsViewController.swift in Sources */,
+				04F482ED2558B2890015F8C3 /* EventCell.swift in Sources */,
+				0438FA3225A6FE6A0074A59F /* LikesViewController.swift in Sources */,
+				040BB8192559D2950097FA43 /* DataRequest.swift in Sources */,
 				04AB5EB5254B6E62008575F3 /* AppDelegate.swift in Sources */,
+				04846BCC25C08F1900F22572 /* City.swift in Sources */,
+				04B7F26425A7394D0005D0EB /* SignUpViewController.swift in Sources */,
 				04AB5EB7254B6E62008575F3 /* SceneDelegate.swift in Sources */,
+				043BE8E525C1E6BF00A74BDE /* DetailsViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -192,6 +328,7 @@
 				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
 				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
 				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
 				CLANG_WARN_STRICT_PROTOTYPES = YES;
 				CLANG_WARN_SUSPICIOUS_MOVE = YES;
@@ -216,7 +353,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -252,6 +389,7 @@
 				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
 				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
 				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
 				CLANG_WARN_STRICT_PROTOTYPES = YES;
 				CLANG_WARN_SUSPICIOUS_MOVE = YES;
@@ -270,7 +408,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;
@@ -282,16 +420,21 @@
 		};
 		04AB5EC6254B6E63008575F3 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = BFA667A4A416DFDE1DB4BE56 /* Pods-Cavents.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 3UA7J8M967;
 				INFOPLIST_FILE = Cavents/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.3;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = ahmedshieha.Cavents;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -299,16 +442,21 @@
 		};
 		04AB5EC7254B6E63008575F3 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = C803A371C980D59F1C20C203 /* Pods-Cavents.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 3UA7J8M967;
 				INFOPLIST_FILE = Cavents/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.3;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = ahmedshieha.Cavents;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
