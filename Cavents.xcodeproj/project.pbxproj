@@ -7,11 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		040BB8192559D2950097FA43 /* DataRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 040BB8182559D2950097FA43 /* DataRequest.swift */; };
+		0407436625EFB14200DF6B56 /* Event.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0407436525EFB14200DF6B56 /* Event.swift */; };
 		040BB8242559DE420097FA43 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 040BB8232559DE420097FA43 /* GoogleService-Info.plist */; };
 		0438FA3225A6FE6A0074A59F /* LikesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0438FA3125A6FE6A0074A59F /* LikesViewController.swift */; };
 		043BE8E525C1E6BF00A74BDE /* DetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 043BE8E425C1E6BF00A74BDE /* DetailsViewController.swift */; };
-		04846BCC25C08F1900F22572 /* City.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04846BCB25C08F1900F22572 /* City.swift */; };
 		04AB5EB5254B6E62008575F3 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04AB5EB4254B6E62008575F3 /* AppDelegate.swift */; };
 		04AB5EB7254B6E62008575F3 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04AB5EB6254B6E62008575F3 /* SceneDelegate.swift */; };
 		04AB5EB9254B6E62008575F3 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04AB5EB8254B6E62008575F3 /* ViewController.swift */; };
@@ -19,6 +18,7 @@
 		04AB5EBE254B6E63008575F3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 04AB5EBD254B6E63008575F3 /* Assets.xcassets */; };
 		04AB5EC1254B6E63008575F3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 04AB5EBF254B6E63008575F3 /* LaunchScreen.storyboard */; };
 		04B7F26425A7394D0005D0EB /* SignUpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04B7F26325A7394D0005D0EB /* SignUpViewController.swift */; };
+		04D5E55F25EBF0B4003CEFE3 /* GetData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04D5E55E25EBF0B4003CEFE3 /* GetData.swift */; };
 		04F482E92558B2380015F8C3 /* EventsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04F482E82558B2380015F8C3 /* EventsViewController.swift */; };
 		04F482ED2558B2890015F8C3 /* EventCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04F482EB2558B2890015F8C3 /* EventCell.swift */; };
 		04F482EE2558B2890015F8C3 /* EventCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 04F482EC2558B2890015F8C3 /* EventCell.xib */; };
@@ -26,11 +26,10 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		040BB8182559D2950097FA43 /* DataRequest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataRequest.swift; sourceTree = "<group>"; };
+		0407436525EFB14200DF6B56 /* Event.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Event.swift; sourceTree = "<group>"; };
 		040BB8232559DE420097FA43 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		0438FA3125A6FE6A0074A59F /* LikesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LikesViewController.swift; sourceTree = "<group>"; };
 		043BE8E425C1E6BF00A74BDE /* DetailsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailsViewController.swift; sourceTree = "<group>"; };
-		04846BCB25C08F1900F22572 /* City.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = City.swift; sourceTree = "<group>"; };
 		04AB5EB1254B6E62008575F3 /* Cavents.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Cavents.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		04AB5EB4254B6E62008575F3 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		04AB5EB6254B6E62008575F3 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -40,6 +39,7 @@
 		04AB5EC0254B6E63008575F3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		04AB5EC2254B6E63008575F3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		04B7F26325A7394D0005D0EB /* SignUpViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpViewController.swift; sourceTree = "<group>"; };
+		04D5E55E25EBF0B4003CEFE3 /* GetData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GetData.swift; sourceTree = "<group>"; };
 		04F482E82558B2380015F8C3 /* EventsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EventsViewController.swift; sourceTree = "<group>"; };
 		04F482EB2558B2890015F8C3 /* EventCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EventCell.swift; sourceTree = "<group>"; };
 		04F482EC2558B2890015F8C3 /* EventCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = EventCell.xib; sourceTree = "<group>"; };
@@ -63,7 +63,7 @@
 		040BB8172559D27E0097FA43 /* Network */ = {
 			isa = PBXGroup;
 			children = (
-				040BB8182559D2950097FA43 /* DataRequest.swift */,
+				04D5E55E25EBF0B4003CEFE3 /* GetData.swift */,
 			);
 			path = Network;
 			sourceTree = "<group>";
@@ -71,7 +71,7 @@
 		040BB8252559E3EE0097FA43 /* Models */ = {
 			isa = PBXGroup;
 			children = (
-				04846BCB25C08F1900F22572 /* City.swift */,
+				0407436525EFB14200DF6B56 /* Event.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -269,11 +269,11 @@
 			files = (
 				04AB5EB9254B6E62008575F3 /* ViewController.swift in Sources */,
 				04F482E92558B2380015F8C3 /* EventsViewController.swift in Sources */,
+				04D5E55F25EBF0B4003CEFE3 /* GetData.swift in Sources */,
 				04F482ED2558B2890015F8C3 /* EventCell.swift in Sources */,
+				0407436625EFB14200DF6B56 /* Event.swift in Sources */,
 				0438FA3225A6FE6A0074A59F /* LikesViewController.swift in Sources */,
-				040BB8192559D2950097FA43 /* DataRequest.swift in Sources */,
 				04AB5EB5254B6E62008575F3 /* AppDelegate.swift in Sources */,
-				04846BCC25C08F1900F22572 /* City.swift in Sources */,
 				04B7F26425A7394D0005D0EB /* SignUpViewController.swift in Sources */,
 				04AB5EB7254B6E62008575F3 /* SceneDelegate.swift in Sources */,
 				043BE8E525C1E6BF00A74BDE /* DetailsViewController.swift in Sources */,

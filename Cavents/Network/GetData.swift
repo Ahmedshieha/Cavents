@@ -31,7 +31,7 @@ class EventDataSource {
                 let image = data["image"] as? String
                 let description = data["description"] as? String
                 let time = data["time"] as? String
-                let newEvent = Event(eventName: name, eventPlace: place , eventDate : date, imageUrl: image, description: description, eventTime: time)
+                let newEvent = Event(eventName: name ?? "", eventPlace: place ?? "", eventDate: date ?? "", imageUrl: image ?? "", eventDescription: description ?? "", eventTime: time ?? "")
                 
                 events.append(newEvent)
             }

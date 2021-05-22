@@ -13,11 +13,17 @@ public struct Event :Codable {
     let eventName: String?
     let eventPlace: String?
     let eventDate : String?
+    let imageUrl : String?
+    let description : String?
+    let eventTime : String?
 
   enum CodingKeys: String, CodingKey {
     case eventName
     case eventPlace
     case eventDate
+    case imageUrl
+    case description
+    case eventTime
 }
 
 }
