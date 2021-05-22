@@ -9,8 +9,8 @@ target 'Cavents' do
    pod 'Firebase/Analytics'
    pod 'Firebase/Auth'
    pod 'Firebase/Firestore'
-   pod 'FirebaseFirestoreSwift ~> 7.0-beta'
-   inhibit_all_warnings!
+   pod 'Kingfisher'
+   pod 'RealmSwift'
 end
 
 

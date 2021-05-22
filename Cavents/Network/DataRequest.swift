@@ -12,8 +12,18 @@ import FirebaseFirestore
 
 class DataRequest {
     
-
-
-
+    private var cityCollectionRef : CollectionReference!
+    
+   static func fetchData () {
+        
+        cityCollectionRef = Firestore.firestore().collection("events")
+        cityCollectionRef.getDocuments {  (snapshot, error) in
+            if let error = error {
+                print(error.localizedDescription)
+            } else{
+                
+            }
+        }
+    }
 }
 
